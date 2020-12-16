@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<network directed="True" radius="100">
+  <nodes>
+    <node name="n1" position="(1, 1)"/>
+    <node name="n2" position="(1, 2)"/>
+    <node name="n3" position="(2, 1)"/>
+    <node name="n4" position="(1, 2)"/>
+  </nodes>
+  <edges>
+    <edge capacity="3" end_node="n2" name="e1" probability_distribution="[]" start_node="n1"/>
+    <edge capacity="3" end_node="n3" name="e2" probability_distribution="[]" start_node="n2"/>
+    <edge capacity="3" end_node="n4" name="e3" probability_distribution="[]" start_node="n3"/>
+    <edge capacity="3" end_node="n1" name="e4" probability_distribution="[]" start_node="n4"/>
+  </edges>
+  <results>
+    <minimal_path_set_search>None</minimal_path_set_search>
+    <D_MP_search>None</D_MP_search>
+    <reliability_evaluation>None</reliability_evaluation>
+  </results>
+</network>

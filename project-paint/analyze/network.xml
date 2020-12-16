@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<network directed="True" radius="40">
+  <nodes>
+    n1, n2, n3, n4
+    <node name="1" position="(250, 180)"/>
+    <node name="2" position="(150, 200)"/>
+    <node name="3" position="(250, 400)"/>
+    <node name="4" position="(150, 100)"/>
+  </nodes>
+  <edges>
+    e1, e2, e3, e4
+    <edge capacity="3" end_node="2" name="e1" start_node="1"/>
+    <edge capacity="6" end_node="3" name="e2" start_node="2"/>
+    <edge capacity="3" end_node="4" name="e3" start_node="3"/>
+    <edge capacity="4" end_node="1" name="e4" start_node="4"/>
+  </edges>
+  <results>
+    <minimal_path_set_search>None</minimal_path_set_search>
+    <D_MP_search>None</D_MP_search>
+    <reliability_evaluation>None</reliability_evaluation>
+  </results>
+</network>

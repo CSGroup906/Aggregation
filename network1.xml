@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<network directed="False" radius="40">
+  <nodes>
+    <node name="3" position="(580, 180)"/>
+    <node name="4" position="(279, 481)"/>
+    <node name="1" position="(278, 180)"/>
+    <node name="2" position="(581, 480)"/>
+    <node name="0" position="(175, 327)"/>
+    <node name="-1" position="(682, 327)"/>
+  </nodes>
+  <edges>
+    <edge capacity="2" end_node="1" name="1" probability_distribution="[]" start_node="0"/>
+    <edge capacity="1" end_node="4" name="2" probability_distribution="[]" start_node="0"/>
+    <edge capacity="1" end_node="4" name="3" probability_distribution="[]" start_node="1"/>
+    <edge capacity="3" end_node="3" name="4" probability_distribution="[]" start_node="1"/>
+    <edge capacity="2" end_node="4" name="5" probability_distribution="[]" start_node="3"/>
+    <edge capacity="4" end_node="2" name="6" probability_distribution="[]" start_node="4"/>
+    <edge capacity="1" end_node="2" name="7" probability_distribution="[]" start_node="3"/>
+    <edge capacity="1" end_node="-1" name="8" probability_distribution="[]" start_node="2"/>
+    <edge capacity="5" end_node="-1" name="9" probability_distribution="[]" start_node="3"/>
+  </edges>
+  <results>
+    <minimal_path_set_search>None</minimal_path_set_search>
+    <D_MP_search>None</D_MP_search>
+    <reliability_evaluation>None</reliability_evaluation>
+  </results>
+</network>
